@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPR Car Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header" id="header">
+        <nav>
+            <img src="imges/logo.png" class="logo">
+            <ul>
+                <div class="container"></div>
+                <li><a href="#" id="models">Model S</a></li>
+                <li><a href="#" id="model3">Model 3</a></li>
+                <li><a href="#" id="modelx">Model X</a></li>
+                <li><a href="#" id="modely">Model Y</a></li>
+
+            </ul>
+            <a href="#" class="btn">Serch here...</a>
+        </nav>
+        <div class="info">
+            <div>
+                <h2>1s</h2>
+                <p>80mph</p>
+            </div>
+            <div>
+                <h2>400mph</h2>
+                <p>Top speed</p>
+            </div>
+            <div>
+                <h2>396 mi</h2>
+                <p>Max Range</p>
+            </div>
+            <div class="line">
+            </div>
+            <div>
+                <h2 id="model">Model S</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<center>
+    <h1 align="center">CEO OF Tesla</h1>
+	<div id="tesla">
+		<img src="imges/ceo.jpg" />
+        <h1>Elon Musk</h1>
+	</div>
+</center>
+</div>
+    <script>
+        var header = document.getElementById("header");
+        var ms = document.getElementById("models");
+        var m3 = document.getElementById("model3");
+        var mx = document.getElementById("modelx");
+        var my = document.getElementById("modely");
+        var model =document.getElementById("model");
+
+        ms.onclick = function(){
+            header.style.backgroundImage= " url(imges/image-1.png)";
+            model.innerHTML = "Model S";
+            
+        }
+        m3.onclick = function(){
+            header.style.backgroundImage= " url(imges/image-2.png)";
+            model.innerHTML = "Model 3"
+        }
+        mx.onclick = function(){
+            header.style.backgroundImage= " url(imges/image-3.png)";
+            model.innerHTML = "Model X"
+        }
+        my.onclick = function(){
+            header.style.backgroundImage= " url(imges/image-4.png)";
+            model.innerHTML = "Model Y"
+        }
+       
+    </script>
+    <footer>
+        <div class="footer">
+          <div class="contain">
+          <div class="col">
+            <h2>Company</h2>
+            <ul>
+              <li>About us</li>
+              <li> Our Mission</li>
+              <li>Services</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Products</h2>
+            <ul>
+              <li>SEO</li>
+              <li>Content Development</li>
+              <li>Digital Marketing</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Team</h2>
+            <ul>
+              <li>HR Team</li>
+              <li>Finance Team</li>
+              <li>Content Team</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Resources</h2>
+            <ul>
+              <li>Webmail</li>
+              <li>Web templates</li>
+              <li>Email templates</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Contact</h2>
+            <ul>
+              <li>+91 9051 XXXXXX</li>
+              <li>033 2464 XXXX</li>
+              <li>abc@gmail.com</li>
+            </ul>
+          </div>
+          <div class="col address">
+            <h2>Address </h2>
+            <ul>
+              <li>Sky Towers, Service Road, Kolkata</li>
+          </ul>
+          </div>
+        <div class="clearfix"></div>
+        </div>
+        </div>
+        
+        </footer>
+        
+</body>
+
+</html>
